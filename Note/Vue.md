@@ -1,9 +1,13 @@
 # Vue学习路线
-0.前置学习：HTML，CSS，JS，Jquery，BootStrap（https://www.runoob.com/js/js-tutorial.html）
+0.前置学习：HTML，CSS，JS，Jquery，BootStrap
 1.准备工作（环境安装配置等）
 2.官方文档
 3.相关教程（菜鸟教程，尚硅谷等）
 4.项目实战（GitHub等）
+
+相关学习网站：
+w3cschool：https://www.w3school.com.cn/index.html
+菜鸟：https://www.runoob.com/js/js-tutorial.html
 ## 1. 准备工作：
 安装Vue Chrome插件：https://devtools.vuejs.org/guide/installation.html
 安装npm，查看npm版本：npm -v

@@ -19,13 +19,5 @@ homebrew卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/r
 查看可清理的旧版本包，不执行实际操作：brew cleanup -n
 
 报错及解决方案：
-1.Error: Command failed with exit 128: git
-git -C "/usr/local/Homebrew" remote set-url origin https://github.com/Homebrew/brew
-rm -rf "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask"
-brew tap homebrew/cask
-rm -rf "/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core"
-brew tap homebrew/core
-
-Warning: Unbrewed dylibs were found in /usr/local/lib.
-If you didn't put them there on purpose they could cause problems when
-building Homebrew formulae, and may need to be deleted.
+1.git提交或克隆报错fatal: unable to access ‘https://github.com/xxxxx‘: Failed to connect to github.com xxxx
+解决方案：https://blog.csdn.net/good_good_xiu/article/details/118567249
