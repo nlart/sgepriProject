@@ -18,6 +18,7 @@ homebrew卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/r
 清理指定包的旧版本：brew cleanup $FORMULA
 查看可清理的旧版本包，不执行实际操作：brew cleanup -n
 
+Markdown文档：https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/
 报错及解决方案：
 1.git提交或克隆报错fatal: unable to access ‘https://github.com/xxxxx‘: Failed to connect to github.com xxxx
 解决方案：https://blog.csdn.net/good_good_xiu/article/details/118567249

@@ -11,19 +11,38 @@
     
 -->
     <script>
-        function displayDate() {
-            document.getElementById("demo").innerHTML = Date();
+        function showDay(n) {
+            var result;
+            switch(n) {
+                case 0 : result = "Sunday.";
+                break;
+                case 1 : result = "Monday.";
+                break;
+                case 2 : result = "Tuesday.";
+                break;
+                case 3 : result = "Wednesday.";
+                break;
+                case 4 : result = "Thursday.";
+                break;
+                case 5 : result = "Friday.";
+                break;
+                case 6 : result = "Saturday.";
+                break;
+            }
+            document.getElementById("resultShow").innerHTML = result;
         } 
     </script> 
 </head>
 <body>
     <h3>  这是一个三级标题  </h3>
-    <p id="demo">
-        这是一个段落。
+    <p>
+        显示日期：
     </p>
     <!--
         <button type="button" onclick="displayDate()"> 显示日期 </button>
     -->
-    <button type="button" onclick="alert('welcome!')">点击</button>
+    <button type="button" onclick="showDay(new Date().getDay())">点击</button>
+    
+    <p id="resultShow"></p>
 </body>
 </html>
