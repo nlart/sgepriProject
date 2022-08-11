@@ -3,46 +3,22 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>这里是标题</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>DailyTest</title>
 <!--
     <script src='main.js'></script>  
     
 -->
-    <script>
-        function showDay(n) {
-            var result;
-            switch(n) {
-                case 0 : result = "Sunday.";
-                break;
-                case 1 : result = "Monday.";
-                break;
-                case 2 : result = "Tuesday.";
-                break;
-                case 3 : result = "Wednesday.";
-                break;
-                case 4 : result = "Thursday.";
-                break;
-                case 5 : result = "Friday.";
-                break;
-                case 6 : result = "Saturday.";
-                break;
-            }
-            document.getElementById("resultShow").innerHTML = result;
-        } 
-    </script> 
 </head>
 <body>
-    <h3>  这是一个三级标题  </h3>
-    <p>
-        显示日期：
+    <p id="First">
+        <p id="second">2</p>
+        <p id="third">3</p>
+        <p id="fourth">4</p>
     </p>
-    <!--
-        <button type="button" onclick="displayDate()"> 显示日期 </button>
-    -->
-    <button type="button" onclick="showDay(new Date().getDay())">点击</button>
     
-    <p id="resultShow"></p>
 </body>
+<script>
+    document.write(Date());
+    document.getElementById("First").innerHTML = "first";
+</script> 
 </html>
