@@ -5,9 +5,51 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>管理系统</title>
 </head>
+<style>
+    #header {
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+    }
+    #content {
+        background-color: grey;
+        color: aliceblue;
+        height: 400px;
+        text-align: center;
+    }
+
+    #footer {
+        background-color:black;
+        color: aliceblue;
+        text-align: center;
+    }
+    #login {
+        background-color: black;
+        height: 300px;
+    }
+</style>
 <body>
-   <h1 id = "title">管理系统</h1>
-   <p id="name">用户名：</p>
-   <p id="password">密码：</p>
+    <div id="header">
+        <h1 id = "title">管理系统</h1>
+    </div>
+   
+    <div id="content">
+        <div id="login">
+            <div>
+                账号：<input type="text" name="userAccount" id="userAccount">
+            </div>
+            <div>
+                密码：<input type="password" name="userPassword" id="userPassword">
+            </div>
+            
+            <input type="button" value="注册">
+            <input type="submit" value="登陆">
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Copyright 2022 &#128512;</p>
+    </div>
+   
 </body>
 </html>
