@@ -22,4 +22,31 @@ chicken：10000，8-3-14，    ——12500
 mouse：15365，  7-23-20，   ——6270
 
 1.StackOverFlow访问速度慢解决方案：https://github.com/justjavac/ReplaceGoogleCDN
-2.mac刷新DNS缓存    sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
+2.mac下github访问速度慢解决方案：修改hosts文件
+2.1 sudo vi /etc/hosts（使用终端打开hosts文件）
+2.2 新增以下ip：（ip查询网址：https://www.ipaddress.com/）
+    githubstatus.com
+    github.global.ssl.fastly.net
+    github.com 
+    raw.github.com
+    gist.github.com
+    help.github.com
+    nodeload.github.com
+    training.github.com
+    codeload.github.com
+    assets-cdn.github.com
+    documentcloud.github.com
+    raw.githubusercontent.com
+    gist.githubusercontent.com
+    camo.githubusercontent.com
+    cloud.githubusercontent.com
+    avatars0.githubusercontent.com
+    avatars1.githubusercontent.com
+    avatars2.githubusercontent.com
+    avatars3.githubusercontent.com
+    avatars4.githubusercontent.com
+    avatars5.githubusercontent.com
+    avatars6.githubusercontent.com
+    avatars7.githubusercontent.com
+    avatars8.githubusercontent.com
+2.3 刷新DNS缓存：sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder
