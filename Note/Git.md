@@ -18,6 +18,13 @@ homebrew卸载：/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/r
 清理指定包的旧版本：brew cleanup $FORMULA
 查看可清理的旧版本包，不执行实际操作：brew cleanup -n
 
+Mac刷新DNS缓存：sudo killall -HUP mDNSResponder && echo macOS DNS Cache Reset
+xxx.app已损坏，无法打开，您应该将它移到废纸篓：sudo xattr -d com.apple.quarantine /Applications/xxx.app
+
+新建文件：touch 文件名
+编辑文件：open -e 文件名
+更新配置： source ~/文件名
+
 报错及解决方案：
 1.git提交或克隆报错fatal: unable to access ‘https://github.com/xxxxx‘: Failed to connect to github.com xxxx
 解决方案：https://blog.csdn.net/good_good_xiu/article/details/118567249
