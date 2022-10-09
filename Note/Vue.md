@@ -27,4 +27,24 @@ sudo rm /usr/local/lib/dtrace/node.d
 
 ## 2. 官方文档：
 1.Vue官网：https://v3.cn.vuejs.org/   （Vue 3.x）
-2.
+
+
+vscode下使用脚手架安装vue项目
+1.安装插件：    
+volar插件+eslint插件
+2.新建终端：    
+vscode顶端菜单“终端”——新建终端
+3.创建vue项目： 
+vue init webpack 工程名称（例：vue init webpack vue_test）
+4.报错：        
+Command vue init requires a global addon to be installed.
+Please run npm i -g @vue/cli-init and try again.
+5.解决方案：
+sudo npm i -g @vue/cli-init
+6.项目创建选择：
+遇到y/n选择y，其余直接回车
+7.安装成功：
+cd vueTest
+npm run dev
+8.浏览器打开：
+http://localhost:8080
