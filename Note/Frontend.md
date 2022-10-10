@@ -13,4 +13,10 @@
 ## CSS篇
 
 ## JavaScript篇
-
+1.功能：
+直接写入html输出流，对事件反应，改变html内容，改变html图像，改变html样式，验证输入
+2.js显示数据的几种方式：
+   window.alert()
+   document.write()
+   innerHTML
+   console.log()
