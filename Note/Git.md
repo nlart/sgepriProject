@@ -1,3 +1,17 @@
+# Git
+
+## 1. 什么是Git？
+   Git是一个开源的版本控制系统，同时也是一个内容管理系统。
+## 2. Git与SVN的区别？
+   * Git是分布式的
+   * Git是以元数据进行存储，Svn是文件存储
+   * Git没有全局版本号，Svn有
+   * Git的分支与Svn不同
+   * Git内容完整性优于Svn
+## 3.Git相关命令
+  * 查看git版本：git --version
+  * homebrew安装git：brew install git（brew update --auto-update）
+  * 重新连接git：brew link git --overwrite
 基础命令：
 1.echo $SHELL ：查看当前默认的shell（分为zsh和bash）
 2.cat /etc/shells ：查看已安装的shell
